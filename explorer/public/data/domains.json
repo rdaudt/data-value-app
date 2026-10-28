@@ -1,0 +1,61 @@
+[
+  {
+    "domain": "Claims",
+    "subdomains": [
+      "Claim Intake",
+      "Claim Management",
+      "Wage Loss Benefits",
+      "Health Care Benefits"
+    ]
+  },
+  {
+    "domain": "Assessments",
+    "subdomains": [
+      "Employer Registration",
+      "Classification and Rates",
+      "Payroll and Premium",
+      "Collections"
+    ]
+  },
+  {
+    "domain": "Prevention",
+    "subdomains": [
+      "Inspections",
+      "Orders and Penalties",
+      "Incident Investigation"
+    ]
+  },
+  {
+    "domain": "Finance",
+    "subdomains": [
+      "General Ledger",
+      "Payments",
+      "Actuarial",
+      "Budget and Forecast"
+    ]
+  },
+  {
+    "domain": "Employer",
+    "subdomains": [
+      "Employer Master",
+      "Employer Accounts",
+      "Employer Relationships"
+    ]
+  },
+  {
+    "domain": "Worker",
+    "subdomains": [
+      "Worker Master",
+      "Worker Contacts",
+      "Worker Employment History"
+    ]
+  },
+  {
+    "domain": "Provider",
+    "subdomains": [
+      "Provider Master",
+      "Provider Billing",
+      "Provider Contracts"
+    ]
+  }
+]

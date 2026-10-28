@@ -1,0 +1,26 @@
+{ 
+  "formula_version": "MVP-v2.0", 
+  "composite_weights": { 
+    "value": 0.34, 
+    "quality": 0.33, 
+    "cost": 0.23, 
+    "risk": 0.10 
+  }, 
+  "label_thresholds": { 
+    "high": 67, 
+    "low":  33 
+  }, 
+  "dimension_labels": { 
+    "value":   ["High",       "Medium",   "Low"      ], 
+    "quality": ["High",       "Medium",   "Low"      ], 
+    "cost":    ["Efficient",  "Moderate", "Expensive"], 
+    "risk":    ["Safe",       "Moderate", "Exposed"  ] 
+  }, 
+  "quadrant_split": 50, 
+  "quadrants": { 
+    "invest":      { "value_gte": 50, "cost_gte": 50, "action": "Keep and extend" }, 
+    "optimize":    { "value_gte": 50, "cost_lt":  50, "action": "Reduce cost"      }, 
+    "maintain":    { "value_lt":  50, "cost_gte": 50, "action": "Monitor, promote use" }, 
+    "retire_review":{ "value_lt": 50, "cost_lt":  50, "action": "Review for archive" } 
+  } 
+} 

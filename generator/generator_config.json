@@ -1,0 +1,16 @@
+{ 
+  "periods": ["2026-04","2026-05","2026-06","2026-07","2026-08","2026-09"], 
+  "noise_range": [-4, 4], 
+  "products_per_domain": [5, 8], 
+  "assets_per_product":  [8, 16], 
+  "pbi_reports": 400, 
+  "pbi_models":  150, 
+  "scenario_starts": { 
+    "Stable":                    {"value":[20,80],"quality":[20,80],"cost":[20,80],"risk":[20,80]}, 
+    "Steady Growth":             {"value":[40,55],"quality":[40,70],"cost":[40,70],"risk":[40,70]}, 
+    "Quality Degradation":       {"value":[40,70],"quality":[65,78],"cost":[40,70],"risk":[40,70]}, 
+    "Cost Spike":                {"value":[40,70],"quality":[40,70],"cost":[42,55],"risk":[40,70]}, 
+    "New PII / Risk Escalation": {"value":[40,70],"quality":[40,70],"cost":[40,70],"risk":[45,60]}, 
+    "Retirement Candidate":      {"value":[50,60],"quality":[40,70],"cost":[38,50],"risk":[40,70]} 
+  } 
+} 

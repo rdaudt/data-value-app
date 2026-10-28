@@ -1,0 +1,487 @@
+asset_id,fqn,server,database,schema,name,type,layer,row_count,pii_level
+A0001,cdw.wsbc.curated.tbl_dp001_01,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp001_01,table,Curated,2854598,None
+A0002,cdw.wsbc.curated.tbl_dp001_02,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp001_02,table,Curated,3648075,None
+A0003,cdw.wsbc.curated.tbl_dp001_03,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp001_03,table,Curated,28223,Medium
+A0004,cdw.wsbc.biprsd.tbl_dp001_04,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp001_04,table,BIPRSD,2210467,Low
+A0005,cdw.wsbc.raw_data.tbl_dp001_05,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_05,table,Raw Data,4259742,None
+A0006,cdw.wsbc.biprsd.tbl_dp001_06,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp001_06,table,BIPRSD,2504536,High
+A0007,cdw.wsbc.biprsd.tbl_dp001_07,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp001_07,table,BIPRSD,4259584,Low
+A0008,cdw.wsbc.raw_data.tbl_dp001_08,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_08,table,Raw Data,1283108,None
+A0009,cdw.wsbc.raw_data.tbl_dp001_09,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_09,table,Raw Data,4525639,High
+A0010,cdw.wsbc.biprsd.tbl_dp001_10,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp001_10,table,BIPRSD,5797,Low
+A0011,cdw.wsbc.curated.tbl_dp001_11,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp001_11,table,Curated,4099721,None
+A0012,cdw.wsbc.raw_data.tbl_dp001_12,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_12,table,Raw Data,3045903,High
+A0013,cdw.wsbc.curated.tbl_dp001_13,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp001_13,table,Curated,2009671,None
+A0014,cdw.wsbc.raw_data.tbl_dp001_14,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_14,table,Raw Data,4760334,None
+A0015,cdw.wsbc.raw_data.tbl_dp001_15,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_15,view,Raw Data,4077783,High
+A0016,cdw.wsbc.raw_data.tbl_dp001_16,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp001_16,view,Raw Data,4469663,High
+A0017,cdw.wsbc.raw_data.tbl_dp002_01,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp002_01,table,Raw Data,3987957,Low
+A0018,cdw.wsbc.raw_data.tbl_dp002_02,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp002_02,table,Raw Data,2224456,Low
+A0019,cdw.wsbc.biprsd.tbl_dp002_03,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp002_03,table,BIPRSD,3550538,None
+A0020,cdw.wsbc.biprsd.tbl_dp002_04,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp002_04,table,BIPRSD,1688377,Medium
+A0021,cdw.wsbc.curated.tbl_dp002_05,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp002_05,table,Curated,3347989,Medium
+A0022,cdw.wsbc.biprsd.tbl_dp002_06,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp002_06,table,BIPRSD,3133478,Low
+A0023,cdw.wsbc.biprsd.tbl_dp002_07,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp002_07,table,BIPRSD,3788340,None
+A0024,cdw.wsbc.raw_data.tbl_dp002_08,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp002_08,table,Raw Data,1885897,None
+A0025,cdw.wsbc.curated.tbl_dp002_09,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp002_09,view,Curated,177448,Low
+A0026,cdw.wsbc.biprsd.tbl_dp002_10,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp002_10,view,BIPRSD,1931342,Low
+A0027,cdw.wsbc.raw_data.tbl_dp003_01,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp003_01,table,Raw Data,596533,Medium
+A0028,cdw.wsbc.biprsd.tbl_dp003_02,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp003_02,table,BIPRSD,494868,None
+A0029,cdw.wsbc.raw_data.tbl_dp003_03,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp003_03,table,Raw Data,264510,High
+A0030,cdw.wsbc.curated.tbl_dp003_04,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp003_04,table,Curated,595394,Low
+A0031,cdw.wsbc.raw_data.tbl_dp003_05,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp003_05,table,Raw Data,2337036,Medium
+A0032,cdw.wsbc.curated.tbl_dp003_06,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp003_06,table,Curated,1798148,Low
+A0033,cdw.wsbc.raw_data.tbl_dp003_07,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp003_07,table,Raw Data,4791256,Low
+A0034,cdw.wsbc.curated.tbl_dp003_08,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp003_08,table,Curated,2039408,High
+A0035,cdw.wsbc.curated.tbl_dp003_09,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp003_09,table,Curated,3415666,None
+A0036,cdw.wsbc.raw_data.tbl_dp003_10,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp003_10,view,Raw Data,814114,Medium
+A0037,cdw.wsbc.curated.tbl_dp003_11,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp003_11,view,Curated,2973063,Low
+A0038,cdw.wsbc.curated.tbl_dp004_01,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp004_01,table,Curated,455420,Medium
+A0039,cdw.wsbc.biprsd.tbl_dp004_02,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp004_02,table,BIPRSD,826588,None
+A0040,cdw.wsbc.curated.tbl_dp004_03,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp004_03,table,Curated,2847276,High
+A0041,cdw.wsbc.raw_data.tbl_dp004_04,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_04,table,Raw Data,2086880,None
+A0042,cdw.wsbc.raw_data.tbl_dp004_05,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_05,table,Raw Data,4499690,Low
+A0043,cdw.wsbc.raw_data.tbl_dp004_06,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_06,table,Raw Data,3539999,None
+A0044,cdw.wsbc.curated.tbl_dp004_07,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp004_07,table,Curated,3881805,None
+A0045,cdw.wsbc.raw_data.tbl_dp004_08,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_08,table,Raw Data,3718250,High
+A0046,cdw.wsbc.biprsd.tbl_dp004_09,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp004_09,table,BIPRSD,822317,None
+A0047,cdw.wsbc.biprsd.tbl_dp004_10,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp004_10,table,BIPRSD,4535780,High
+A0048,cdw.wsbc.raw_data.tbl_dp004_11,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_11,table,Raw Data,783344,High
+A0049,cdw.wsbc.raw_data.tbl_dp004_12,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp004_12,table,Raw Data,1396118,Low
+A0050,cdw.wsbc.curated.tbl_dp004_13,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp004_13,view,Curated,4038927,None
+A0051,cdw.wsbc.curated.tbl_dp004_14,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp004_14,view,Curated,492869,None
+A0052,cdw.wsbc.raw_data.tbl_dp005_01,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_01,table,Raw Data,3276095,None
+A0053,cdw.wsbc.curated.tbl_dp005_02,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp005_02,table,Curated,2393843,Low
+A0054,cdw.wsbc.biprsd.tbl_dp005_03,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_03,table,BIPRSD,4663122,Medium
+A0055,cdw.wsbc.biprsd.tbl_dp005_04,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_04,table,BIPRSD,4083495,None
+A0056,cdw.wsbc.raw_data.tbl_dp005_05,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_05,table,Raw Data,2489965,None
+A0057,cdw.wsbc.raw_data.tbl_dp005_06,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_06,table,Raw Data,4859516,Medium
+A0058,cdw.wsbc.biprsd.tbl_dp005_07,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_07,table,BIPRSD,512349,Medium
+A0059,cdw.wsbc.curated.tbl_dp005_08,sql-mi-prod.database.windows.net,wsbc_claims,curated,tbl_dp005_08,table,Curated,480537,None
+A0060,cdw.wsbc.biprsd.tbl_dp005_09,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_09,table,BIPRSD,4000591,Low
+A0061,cdw.wsbc.biprsd.tbl_dp005_10,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_10,table,BIPRSD,1321641,None
+A0062,cdw.wsbc.biprsd.tbl_dp005_11,sql-mi-prod.database.windows.net,wsbc_claims,biprsd,tbl_dp005_11,table,BIPRSD,673023,High
+A0063,cdw.wsbc.raw_data.tbl_dp005_12,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_12,table,Raw Data,575798,Low
+A0064,cdw.wsbc.raw_data.tbl_dp005_13,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_13,view,Raw Data,1974033,Low
+A0065,cdw.wsbc.raw_data.tbl_dp005_14,sql-mi-prod.database.windows.net,wsbc_claims,raw_data,tbl_dp005_14,view,Raw Data,4779783,None
+A0066,cdw.wsbc.biprsd.tbl_dp006_01,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp006_01,table,BIPRSD,688726,Low
+A0067,cdw.wsbc.biprsd.tbl_dp006_02,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp006_02,table,BIPRSD,4897198,Low
+A0068,cdw.wsbc.biprsd.tbl_dp006_03,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp006_03,table,BIPRSD,2654902,None
+A0069,cdw.wsbc.raw_data.tbl_dp006_04,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp006_04,table,Raw Data,2636565,None
+A0070,cdw.wsbc.curated.tbl_dp006_05,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp006_05,table,Curated,3321092,None
+A0071,cdw.wsbc.biprsd.tbl_dp006_06,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp006_06,table,BIPRSD,2517557,Low
+A0072,cdw.wsbc.curated.tbl_dp006_07,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp006_07,view,Curated,609535,None
+A0073,cdw.wsbc.curated.tbl_dp006_08,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp006_08,view,Curated,4723732,None
+A0074,cdw.wsbc.biprsd.tbl_dp007_01,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp007_01,table,BIPRSD,1789067,Low
+A0075,cdw.wsbc.curated.tbl_dp007_02,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp007_02,table,Curated,1112126,None
+A0076,cdw.wsbc.raw_data.tbl_dp007_03,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp007_03,table,Raw Data,2050206,None
+A0077,cdw.wsbc.curated.tbl_dp007_04,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp007_04,table,Curated,1324276,Low
+A0078,cdw.wsbc.biprsd.tbl_dp007_05,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp007_05,table,BIPRSD,2538697,Low
+A0079,cdw.wsbc.biprsd.tbl_dp007_06,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp007_06,table,BIPRSD,4438076,None
+A0080,cdw.wsbc.biprsd.tbl_dp007_07,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp007_07,table,BIPRSD,4653341,None
+A0081,cdw.wsbc.biprsd.tbl_dp007_08,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp007_08,view,BIPRSD,869946,None
+A0082,cdw.wsbc.curated.tbl_dp007_09,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp007_09,view,Curated,969285,None
+A0083,cdw.wsbc.raw_data.tbl_dp008_01,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_01,table,Raw Data,2285622,None
+A0084,cdw.wsbc.biprsd.tbl_dp008_02,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_02,table,BIPRSD,1767889,Medium
+A0085,cdw.wsbc.curated.tbl_dp008_03,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp008_03,table,Curated,1708898,Medium
+A0086,cdw.wsbc.biprsd.tbl_dp008_04,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_04,table,BIPRSD,2215457,Low
+A0087,cdw.wsbc.curated.tbl_dp008_05,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp008_05,table,Curated,2107557,High
+A0088,cdw.wsbc.raw_data.tbl_dp008_06,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_06,table,Raw Data,775255,Medium
+A0089,cdw.wsbc.curated.tbl_dp008_07,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp008_07,table,Curated,2321961,None
+A0090,cdw.wsbc.raw_data.tbl_dp008_08,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_08,table,Raw Data,2799075,High
+A0091,cdw.wsbc.raw_data.tbl_dp008_09,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_09,table,Raw Data,2198440,None
+A0092,cdw.wsbc.biprsd.tbl_dp008_10,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_10,table,BIPRSD,3707384,Low
+A0093,cdw.wsbc.biprsd.tbl_dp008_11,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_11,table,BIPRSD,3588697,Low
+A0094,cdw.wsbc.raw_data.tbl_dp008_12,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_12,table,Raw Data,939466,None
+A0095,cdw.wsbc.biprsd.tbl_dp008_13,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_13,table,BIPRSD,1251357,Low
+A0096,cdw.wsbc.raw_data.tbl_dp008_14,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_14,table,Raw Data,3098208,Low
+A0097,cdw.wsbc.biprsd.tbl_dp008_15,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp008_15,view,BIPRSD,1243300,Low
+A0098,cdw.wsbc.raw_data.tbl_dp008_16,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp008_16,view,Raw Data,351885,None
+A0099,cdw.wsbc.raw_data.tbl_dp009_01,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_01,table,Raw Data,3002521,None
+A0100,cdw.wsbc.biprsd.tbl_dp009_02,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp009_02,table,BIPRSD,2094207,Medium
+A0101,cdw.wsbc.raw_data.tbl_dp009_03,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_03,table,Raw Data,2967871,High
+A0102,cdw.wsbc.biprsd.tbl_dp009_04,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp009_04,table,BIPRSD,3409940,Low
+A0103,cdw.wsbc.biprsd.tbl_dp009_05,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp009_05,table,BIPRSD,1297487,None
+A0104,cdw.wsbc.raw_data.tbl_dp009_06,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_06,table,Raw Data,1486222,Low
+A0105,cdw.wsbc.raw_data.tbl_dp009_07,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_07,table,Raw Data,1505586,Medium
+A0106,cdw.wsbc.curated.tbl_dp009_08,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp009_08,table,Curated,3454700,High
+A0107,cdw.wsbc.biprsd.tbl_dp009_09,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp009_09,table,BIPRSD,2082777,None
+A0108,cdw.wsbc.raw_data.tbl_dp009_10,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_10,table,Raw Data,907771,Low
+A0109,cdw.wsbc.raw_data.tbl_dp009_11,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_11,table,Raw Data,3949434,None
+A0110,cdw.wsbc.raw_data.tbl_dp009_12,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp009_12,view,Raw Data,3862303,None
+A0111,cdw.wsbc.curated.tbl_dp009_13,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp009_13,view,Curated,1910209,None
+A0112,cdw.wsbc.biprsd.tbl_dp010_01,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp010_01,table,BIPRSD,1621090,Low
+A0113,cdw.wsbc.curated.tbl_dp010_02,sql-mi-prod.database.windows.net,wsbc_assessments,curated,tbl_dp010_02,table,Curated,2338091,High
+A0114,cdw.wsbc.raw_data.tbl_dp010_03,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp010_03,table,Raw Data,2342470,None
+A0115,cdw.wsbc.biprsd.tbl_dp010_04,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp010_04,table,BIPRSD,4274204,Low
+A0116,cdw.wsbc.biprsd.tbl_dp010_05,sql-mi-prod.database.windows.net,wsbc_assessments,biprsd,tbl_dp010_05,table,BIPRSD,4499103,None
+A0117,cdw.wsbc.raw_data.tbl_dp010_06,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp010_06,table,Raw Data,968556,None
+A0118,cdw.wsbc.raw_data.tbl_dp010_07,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp010_07,view,Raw Data,4871339,None
+A0119,cdw.wsbc.raw_data.tbl_dp010_08,sql-mi-prod.database.windows.net,wsbc_assessments,raw_data,tbl_dp010_08,view,Raw Data,910346,Low
+A0120,cdw.wsbc.curated.tbl_dp011_01,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_01,table,Curated,2632316,Low
+A0121,cdw.wsbc.biprsd.tbl_dp011_02,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp011_02,table,BIPRSD,4291127,None
+A0122,cdw.wsbc.curated.tbl_dp011_03,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_03,table,Curated,4837771,None
+A0123,cdw.wsbc.curated.tbl_dp011_04,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_04,table,Curated,373341,Medium
+A0124,cdw.wsbc.curated.tbl_dp011_05,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_05,table,Curated,15187,Low
+A0125,cdw.wsbc.biprsd.tbl_dp011_06,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp011_06,table,BIPRSD,1653850,None
+A0126,cdw.wsbc.curated.tbl_dp011_07,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_07,table,Curated,587982,Medium
+A0127,cdw.wsbc.curated.tbl_dp011_08,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_08,table,Curated,2634315,Medium
+A0128,cdw.wsbc.raw_data.tbl_dp011_09,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp011_09,table,Raw Data,2520285,Low
+A0129,cdw.wsbc.curated.tbl_dp011_10,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_10,table,Curated,3426848,None
+A0130,cdw.wsbc.curated.tbl_dp011_11,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp011_11,table,Curated,2481135,Low
+A0131,cdw.wsbc.raw_data.tbl_dp011_12,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp011_12,table,Raw Data,1610271,Low
+A0132,cdw.wsbc.biprsd.tbl_dp011_13,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp011_13,view,BIPRSD,3181501,Medium
+A0133,cdw.wsbc.biprsd.tbl_dp011_14,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp011_14,view,BIPRSD,1460847,Low
+A0134,cdw.wsbc.curated.tbl_dp012_01,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp012_01,table,Curated,4597430,High
+A0135,cdw.wsbc.raw_data.tbl_dp012_02,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_02,table,Raw Data,2550087,None
+A0136,cdw.wsbc.raw_data.tbl_dp012_03,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_03,table,Raw Data,3607163,High
+A0137,cdw.wsbc.biprsd.tbl_dp012_04,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp012_04,table,BIPRSD,2704222,Low
+A0138,cdw.wsbc.curated.tbl_dp012_05,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp012_05,table,Curated,3710105,Medium
+A0139,cdw.wsbc.raw_data.tbl_dp012_06,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_06,table,Raw Data,4289038,Low
+A0140,cdw.wsbc.biprsd.tbl_dp012_07,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp012_07,table,BIPRSD,1424474,Medium
+A0141,cdw.wsbc.raw_data.tbl_dp012_08,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_08,table,Raw Data,2381572,Low
+A0142,cdw.wsbc.biprsd.tbl_dp012_09,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp012_09,table,BIPRSD,2812762,None
+A0143,cdw.wsbc.raw_data.tbl_dp012_10,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_10,table,Raw Data,2604987,None
+A0144,cdw.wsbc.raw_data.tbl_dp012_11,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_11,view,Raw Data,1237094,None
+A0145,cdw.wsbc.raw_data.tbl_dp012_12,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp012_12,view,Raw Data,2054888,Low
+A0146,cdw.wsbc.curated.tbl_dp013_01,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp013_01,table,Curated,3477583,Medium
+A0147,cdw.wsbc.biprsd.tbl_dp013_02,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp013_02,table,BIPRSD,1632040,Medium
+A0148,cdw.wsbc.biprsd.tbl_dp013_03,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp013_03,table,BIPRSD,3222044,Low
+A0149,cdw.wsbc.curated.tbl_dp013_04,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp013_04,table,Curated,2047689,None
+A0150,cdw.wsbc.biprsd.tbl_dp013_05,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp013_05,table,BIPRSD,47513,High
+A0151,cdw.wsbc.raw_data.tbl_dp013_06,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp013_06,table,Raw Data,3567384,None
+A0152,cdw.wsbc.raw_data.tbl_dp013_07,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp013_07,table,Raw Data,4345944,Low
+A0153,cdw.wsbc.raw_data.tbl_dp013_08,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp013_08,view,Raw Data,4676858,None
+A0154,cdw.wsbc.raw_data.tbl_dp013_09,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp013_09,view,Raw Data,3830079,None
+A0155,cdw.wsbc.biprsd.tbl_dp014_01,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_01,table,BIPRSD,4456457,Low
+A0156,cdw.wsbc.biprsd.tbl_dp014_02,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_02,table,BIPRSD,2662688,High
+A0157,cdw.wsbc.curated.tbl_dp014_03,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp014_03,table,Curated,4235386,Low
+A0158,cdw.wsbc.biprsd.tbl_dp014_04,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_04,table,BIPRSD,3741594,None
+A0159,cdw.wsbc.biprsd.tbl_dp014_05,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_05,table,BIPRSD,3982857,Low
+A0160,cdw.wsbc.curated.tbl_dp014_06,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp014_06,table,Curated,2074997,High
+A0161,cdw.wsbc.biprsd.tbl_dp014_07,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_07,table,BIPRSD,2327256,High
+A0162,cdw.wsbc.biprsd.tbl_dp014_08,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_08,table,BIPRSD,4066094,Medium
+A0163,cdw.wsbc.raw_data.tbl_dp014_09,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp014_09,table,Raw Data,2304490,Low
+A0164,cdw.wsbc.raw_data.tbl_dp014_10,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp014_10,table,Raw Data,2397861,None
+A0165,cdw.wsbc.curated.tbl_dp014_11,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp014_11,table,Curated,2818293,None
+A0166,cdw.wsbc.biprsd.tbl_dp014_12,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_12,table,BIPRSD,676934,None
+A0167,cdw.wsbc.raw_data.tbl_dp014_13,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp014_13,table,Raw Data,1940961,Low
+A0168,cdw.wsbc.biprsd.tbl_dp014_14,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp014_14,view,BIPRSD,1282823,Medium
+A0169,cdw.wsbc.raw_data.tbl_dp014_15,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp014_15,view,Raw Data,539790,Low
+A0170,cdw.wsbc.curated.tbl_dp015_01,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_01,table,Curated,4552752,Low
+A0171,cdw.wsbc.curated.tbl_dp015_02,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_02,table,Curated,523322,None
+A0172,cdw.wsbc.curated.tbl_dp015_03,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_03,table,Curated,3268168,High
+A0173,cdw.wsbc.biprsd.tbl_dp015_04,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp015_04,table,BIPRSD,164845,High
+A0174,cdw.wsbc.biprsd.tbl_dp015_05,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp015_05,table,BIPRSD,3191867,Low
+A0175,cdw.wsbc.raw_data.tbl_dp015_06,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp015_06,table,Raw Data,2951766,None
+A0176,cdw.wsbc.curated.tbl_dp015_07,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_07,table,Curated,3516005,Low
+A0177,cdw.wsbc.biprsd.tbl_dp015_08,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp015_08,table,BIPRSD,4582289,High
+A0178,cdw.wsbc.biprsd.tbl_dp015_09,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp015_09,table,BIPRSD,1851012,Low
+A0179,cdw.wsbc.raw_data.tbl_dp015_10,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp015_10,table,Raw Data,2290547,Low
+A0180,cdw.wsbc.curated.tbl_dp015_11,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_11,table,Curated,244477,Low
+A0181,cdw.wsbc.curated.tbl_dp015_12,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp015_12,table,Curated,3392654,Medium
+A0182,cdw.wsbc.raw_data.tbl_dp015_13,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp015_13,view,Raw Data,3921752,None
+A0183,cdw.wsbc.biprsd.tbl_dp015_14,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp015_14,view,BIPRSD,4481553,None
+A0184,cdw.wsbc.biprsd.tbl_dp016_01,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp016_01,table,BIPRSD,4735463,Medium
+A0185,cdw.wsbc.raw_data.tbl_dp016_02,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_02,table,Raw Data,705202,Medium
+A0186,cdw.wsbc.curated.tbl_dp016_03,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_03,table,Curated,1139329,High
+A0187,cdw.wsbc.curated.tbl_dp016_04,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_04,table,Curated,1525453,None
+A0188,cdw.wsbc.curated.tbl_dp016_05,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_05,table,Curated,3181153,None
+A0189,cdw.wsbc.raw_data.tbl_dp016_06,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_06,table,Raw Data,3815294,None
+A0190,cdw.wsbc.curated.tbl_dp016_07,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_07,table,Curated,3181341,None
+A0191,cdw.wsbc.curated.tbl_dp016_08,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_08,table,Curated,2117206,High
+A0192,cdw.wsbc.raw_data.tbl_dp016_09,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_09,table,Raw Data,3946219,None
+A0193,cdw.wsbc.biprsd.tbl_dp016_10,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp016_10,table,BIPRSD,4525974,None
+A0194,cdw.wsbc.curated.tbl_dp016_11,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp016_11,table,Curated,1881911,Medium
+A0195,cdw.wsbc.raw_data.tbl_dp016_12,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_12,table,Raw Data,338709,High
+A0196,cdw.wsbc.raw_data.tbl_dp016_13,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_13,view,Raw Data,2075362,None
+A0197,cdw.wsbc.raw_data.tbl_dp016_14,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp016_14,view,Raw Data,1279275,None
+A0198,cdw.wsbc.curated.tbl_dp017_01,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp017_01,table,Curated,960568,Low
+A0199,cdw.wsbc.raw_data.tbl_dp017_02,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp017_02,table,Raw Data,3901987,Medium
+A0200,cdw.wsbc.curated.tbl_dp017_03,sql-mi-prod.database.windows.net,wsbc_prevention,curated,tbl_dp017_03,table,Curated,3095517,None
+A0201,cdw.wsbc.biprsd.tbl_dp017_04,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_04,table,BIPRSD,961771,High
+A0202,cdw.wsbc.raw_data.tbl_dp017_05,sql-mi-prod.database.windows.net,wsbc_prevention,raw_data,tbl_dp017_05,table,Raw Data,2610183,None
+A0203,cdw.wsbc.biprsd.tbl_dp017_06,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_06,table,BIPRSD,216406,None
+A0204,cdw.wsbc.biprsd.tbl_dp017_07,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_07,table,BIPRSD,3149302,Low
+A0205,cdw.wsbc.biprsd.tbl_dp017_08,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_08,table,BIPRSD,1664710,None
+A0206,cdw.wsbc.biprsd.tbl_dp017_09,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_09,view,BIPRSD,2038168,None
+A0207,cdw.wsbc.biprsd.tbl_dp017_10,sql-mi-prod.database.windows.net,wsbc_prevention,biprsd,tbl_dp017_10,view,BIPRSD,2530858,High
+A0208,cdw.wsbc.biprsd.tbl_dp018_01,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp018_01,table,BIPRSD,345512,None
+A0209,cdw.wsbc.biprsd.tbl_dp018_02,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp018_02,table,BIPRSD,3594495,Medium
+A0210,cdw.wsbc.curated.tbl_dp018_03,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp018_03,table,Curated,579451,Low
+A0211,cdw.wsbc.biprsd.tbl_dp018_04,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp018_04,table,BIPRSD,2863454,None
+A0212,cdw.wsbc.curated.tbl_dp018_05,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp018_05,table,Curated,4113109,None
+A0213,cdw.wsbc.curated.tbl_dp018_06,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp018_06,table,Curated,3039253,Medium
+A0214,cdw.wsbc.curated.tbl_dp018_07,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp018_07,table,Curated,1284382,Low
+A0215,cdw.wsbc.raw_data.tbl_dp018_08,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp018_08,view,Raw Data,4377728,Medium
+A0216,cdw.wsbc.curated.tbl_dp018_09,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp018_09,view,Curated,4515521,High
+A0217,cdw.wsbc.curated.tbl_dp019_01,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp019_01,table,Curated,3654863,High
+A0218,cdw.wsbc.biprsd.tbl_dp019_02,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp019_02,table,BIPRSD,4971037,None
+A0219,cdw.wsbc.curated.tbl_dp019_03,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp019_03,table,Curated,2060362,High
+A0220,cdw.wsbc.raw_data.tbl_dp019_04,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_04,table,Raw Data,2340819,Low
+A0221,cdw.wsbc.raw_data.tbl_dp019_05,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_05,table,Raw Data,3899257,Low
+A0222,cdw.wsbc.biprsd.tbl_dp019_06,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp019_06,table,BIPRSD,3180192,None
+A0223,cdw.wsbc.raw_data.tbl_dp019_07,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_07,table,Raw Data,4147543,High
+A0224,cdw.wsbc.curated.tbl_dp019_08,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp019_08,table,Curated,1526383,Low
+A0225,cdw.wsbc.raw_data.tbl_dp019_09,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_09,table,Raw Data,2977487,High
+A0226,cdw.wsbc.curated.tbl_dp019_10,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp019_10,table,Curated,2855969,None
+A0227,cdw.wsbc.biprsd.tbl_dp019_11,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp019_11,table,BIPRSD,2318508,Low
+A0228,cdw.wsbc.raw_data.tbl_dp019_12,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_12,table,Raw Data,4334783,None
+A0229,cdw.wsbc.raw_data.tbl_dp019_13,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_13,table,Raw Data,2025641,Medium
+A0230,cdw.wsbc.curated.tbl_dp019_14,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp019_14,view,Curated,4099488,Low
+A0231,cdw.wsbc.raw_data.tbl_dp019_15,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp019_15,view,Raw Data,3994758,Medium
+A0232,cdw.wsbc.curated.tbl_dp020_01,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp020_01,table,Curated,145646,None
+A0233,cdw.wsbc.curated.tbl_dp020_02,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp020_02,table,Curated,1859885,Low
+A0234,cdw.wsbc.biprsd.tbl_dp020_03,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_03,table,BIPRSD,2041991,None
+A0235,cdw.wsbc.biprsd.tbl_dp020_04,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_04,table,BIPRSD,4879441,None
+A0236,cdw.wsbc.curated.tbl_dp020_05,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp020_05,table,Curated,4643867,Low
+A0237,cdw.wsbc.curated.tbl_dp020_06,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp020_06,table,Curated,3570384,Medium
+A0238,cdw.wsbc.biprsd.tbl_dp020_07,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_07,table,BIPRSD,2775878,None
+A0239,cdw.wsbc.biprsd.tbl_dp020_08,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_08,table,BIPRSD,3807291,None
+A0240,cdw.wsbc.curated.tbl_dp020_09,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp020_09,table,Curated,2109926,None
+A0241,cdw.wsbc.raw_data.tbl_dp020_10,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp020_10,table,Raw Data,1616514,None
+A0242,cdw.wsbc.raw_data.tbl_dp020_11,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp020_11,table,Raw Data,4496152,High
+A0243,cdw.wsbc.biprsd.tbl_dp020_12,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_12,table,BIPRSD,1554149,None
+A0244,cdw.wsbc.raw_data.tbl_dp020_13,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp020_13,table,Raw Data,4062752,None
+A0245,cdw.wsbc.biprsd.tbl_dp020_14,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_14,view,BIPRSD,4946813,High
+A0246,cdw.wsbc.biprsd.tbl_dp020_15,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp020_15,view,BIPRSD,2374965,None
+A0247,cdw.wsbc.curated.tbl_dp021_01,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp021_01,table,Curated,1909267,None
+A0248,cdw.wsbc.raw_data.tbl_dp021_02,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp021_02,table,Raw Data,2536604,None
+A0249,cdw.wsbc.biprsd.tbl_dp021_03,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp021_03,table,BIPRSD,4481649,None
+A0250,cdw.wsbc.curated.tbl_dp021_04,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp021_04,table,Curated,382813,None
+A0251,cdw.wsbc.biprsd.tbl_dp021_05,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp021_05,table,BIPRSD,2451619,Medium
+A0252,cdw.wsbc.raw_data.tbl_dp021_06,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp021_06,table,Raw Data,4118788,None
+A0253,cdw.wsbc.raw_data.tbl_dp021_07,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp021_07,table,Raw Data,4816599,None
+A0254,cdw.wsbc.curated.tbl_dp021_08,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp021_08,table,Curated,4016745,Low
+A0255,cdw.wsbc.curated.tbl_dp021_09,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp021_09,table,Curated,1547554,None
+A0256,cdw.wsbc.curated.tbl_dp021_10,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp021_10,view,Curated,4008482,None
+A0257,cdw.wsbc.raw_data.tbl_dp021_11,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp021_11,view,Raw Data,3362377,Low
+A0258,cdw.wsbc.biprsd.tbl_dp022_01,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_01,table,BIPRSD,450705,None
+A0259,cdw.wsbc.raw_data.tbl_dp022_02,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp022_02,table,Raw Data,4722440,None
+A0260,cdw.wsbc.raw_data.tbl_dp022_03,sql-mi-prod.database.windows.net,wsbc_finance,raw_data,tbl_dp022_03,table,Raw Data,2082976,None
+A0261,cdw.wsbc.biprsd.tbl_dp022_04,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_04,table,BIPRSD,3492120,Low
+A0262,cdw.wsbc.biprsd.tbl_dp022_05,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_05,table,BIPRSD,1894200,High
+A0263,cdw.wsbc.biprsd.tbl_dp022_06,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_06,table,BIPRSD,3191842,Low
+A0264,cdw.wsbc.curated.tbl_dp022_07,sql-mi-prod.database.windows.net,wsbc_finance,curated,tbl_dp022_07,table,Curated,2495378,High
+A0265,cdw.wsbc.biprsd.tbl_dp022_08,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_08,view,BIPRSD,3598285,None
+A0266,cdw.wsbc.biprsd.tbl_dp022_09,sql-mi-prod.database.windows.net,wsbc_finance,biprsd,tbl_dp022_09,view,BIPRSD,506248,Low
+A0267,cdw.wsbc.raw_data.tbl_dp023_01,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp023_01,table,Raw Data,1771207,None
+A0268,cdw.wsbc.biprsd.tbl_dp023_02,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp023_02,table,BIPRSD,682049,None
+A0269,cdw.wsbc.raw_data.tbl_dp023_03,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp023_03,table,Raw Data,1459053,Low
+A0270,cdw.wsbc.raw_data.tbl_dp023_04,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp023_04,table,Raw Data,1314090,None
+A0271,cdw.wsbc.curated.tbl_dp023_05,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp023_05,table,Curated,3780098,Medium
+A0272,cdw.wsbc.biprsd.tbl_dp023_06,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp023_06,table,BIPRSD,3942911,None
+A0273,cdw.wsbc.raw_data.tbl_dp023_07,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp023_07,table,Raw Data,1942763,None
+A0274,cdw.wsbc.biprsd.tbl_dp023_08,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp023_08,view,BIPRSD,2372613,Medium
+A0275,cdw.wsbc.curated.tbl_dp023_09,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp023_09,view,Curated,598099,Medium
+A0276,cdw.wsbc.curated.tbl_dp024_01,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp024_01,table,Curated,4948513,Medium
+A0277,cdw.wsbc.raw_data.tbl_dp024_02,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp024_02,table,Raw Data,3567324,None
+A0278,cdw.wsbc.biprsd.tbl_dp024_03,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp024_03,table,BIPRSD,1886838,Medium
+A0279,cdw.wsbc.raw_data.tbl_dp024_04,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp024_04,table,Raw Data,2229286,High
+A0280,cdw.wsbc.raw_data.tbl_dp024_05,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp024_05,table,Raw Data,600029,None
+A0281,cdw.wsbc.raw_data.tbl_dp024_06,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp024_06,table,Raw Data,2581434,Low
+A0282,cdw.wsbc.biprsd.tbl_dp024_07,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp024_07,table,BIPRSD,4775854,None
+A0283,cdw.wsbc.curated.tbl_dp024_08,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp024_08,table,Curated,1044154,Low
+A0284,cdw.wsbc.biprsd.tbl_dp024_09,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp024_09,table,BIPRSD,2551901,Medium
+A0285,cdw.wsbc.curated.tbl_dp024_10,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp024_10,view,Curated,2284766,Low
+A0286,cdw.wsbc.biprsd.tbl_dp024_11,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp024_11,view,BIPRSD,4143254,Low
+A0287,cdw.wsbc.biprsd.tbl_dp025_01,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp025_01,table,BIPRSD,335376,Low
+A0288,cdw.wsbc.biprsd.tbl_dp025_02,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp025_02,table,BIPRSD,2704829,Low
+A0289,cdw.wsbc.curated.tbl_dp025_03,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp025_03,table,Curated,217970,None
+A0290,cdw.wsbc.raw_data.tbl_dp025_04,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp025_04,table,Raw Data,4826119,Low
+A0291,cdw.wsbc.raw_data.tbl_dp025_05,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp025_05,table,Raw Data,2261822,Low
+A0292,cdw.wsbc.raw_data.tbl_dp025_06,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp025_06,table,Raw Data,1470606,Low
+A0293,cdw.wsbc.biprsd.tbl_dp025_07,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp025_07,table,BIPRSD,3710689,None
+A0294,cdw.wsbc.raw_data.tbl_dp025_08,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp025_08,view,Raw Data,4911100,Low
+A0295,cdw.wsbc.biprsd.tbl_dp025_09,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp025_09,view,BIPRSD,4125894,None
+A0296,cdw.wsbc.curated.tbl_dp026_01,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_01,table,Curated,3426472,None
+A0297,cdw.wsbc.curated.tbl_dp026_02,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_02,table,Curated,878447,High
+A0298,cdw.wsbc.raw_data.tbl_dp026_03,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp026_03,table,Raw Data,2767593,Low
+A0299,cdw.wsbc.biprsd.tbl_dp026_04,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp026_04,table,BIPRSD,4157295,None
+A0300,cdw.wsbc.biprsd.tbl_dp026_05,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp026_05,table,BIPRSD,3360236,High
+A0301,cdw.wsbc.biprsd.tbl_dp026_06,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp026_06,table,BIPRSD,308837,Low
+A0302,cdw.wsbc.raw_data.tbl_dp026_07,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp026_07,table,Raw Data,2639361,None
+A0303,cdw.wsbc.curated.tbl_dp026_08,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_08,table,Curated,973420,High
+A0304,cdw.wsbc.curated.tbl_dp026_09,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_09,table,Curated,4317746,High
+A0305,cdw.wsbc.raw_data.tbl_dp026_10,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp026_10,table,Raw Data,4552604,Low
+A0306,cdw.wsbc.curated.tbl_dp026_11,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_11,table,Curated,455696,None
+A0307,cdw.wsbc.biprsd.tbl_dp026_12,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp026_12,table,BIPRSD,3035825,Low
+A0308,cdw.wsbc.curated.tbl_dp026_13,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp026_13,table,Curated,3709108,High
+A0309,cdw.wsbc.raw_data.tbl_dp026_14,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp026_14,view,Raw Data,1708570,None
+A0310,cdw.wsbc.biprsd.tbl_dp026_15,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp026_15,view,BIPRSD,1100018,None
+A0311,cdw.wsbc.biprsd.tbl_dp027_01,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp027_01,table,BIPRSD,4067057,None
+A0312,cdw.wsbc.raw_data.tbl_dp027_02,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_02,table,Raw Data,2008372,Medium
+A0313,cdw.wsbc.raw_data.tbl_dp027_03,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_03,table,Raw Data,2607761,Low
+A0314,cdw.wsbc.raw_data.tbl_dp027_04,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_04,table,Raw Data,4633620,Low
+A0315,cdw.wsbc.raw_data.tbl_dp027_05,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_05,table,Raw Data,1885925,High
+A0316,cdw.wsbc.raw_data.tbl_dp027_06,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_06,table,Raw Data,3871905,None
+A0317,cdw.wsbc.biprsd.tbl_dp027_07,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp027_07,table,BIPRSD,1292603,Low
+A0318,cdw.wsbc.biprsd.tbl_dp027_08,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp027_08,table,BIPRSD,2449312,Low
+A0319,cdw.wsbc.biprsd.tbl_dp027_09,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp027_09,table,BIPRSD,2294654,Low
+A0320,cdw.wsbc.curated.tbl_dp027_10,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp027_10,table,Curated,3962266,None
+A0321,cdw.wsbc.curated.tbl_dp027_11,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp027_11,table,Curated,4625346,None
+A0322,cdw.wsbc.curated.tbl_dp027_12,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp027_12,table,Curated,1599955,Low
+A0323,cdw.wsbc.biprsd.tbl_dp027_13,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp027_13,table,BIPRSD,1146114,High
+A0324,cdw.wsbc.raw_data.tbl_dp027_14,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp027_14,view,Raw Data,2318331,High
+A0325,cdw.wsbc.curated.tbl_dp027_15,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp027_15,view,Curated,2852080,High
+A0326,cdw.wsbc.curated.tbl_dp028_01,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_01,table,Curated,22518,None
+A0327,cdw.wsbc.biprsd.tbl_dp028_02,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_02,table,BIPRSD,2505467,High
+A0328,cdw.wsbc.biprsd.tbl_dp028_03,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_03,table,BIPRSD,4865749,Medium
+A0329,cdw.wsbc.curated.tbl_dp028_04,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_04,table,Curated,1247508,Low
+A0330,cdw.wsbc.biprsd.tbl_dp028_05,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_05,table,BIPRSD,4063950,None
+A0331,cdw.wsbc.curated.tbl_dp028_06,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_06,table,Curated,4630818,High
+A0332,cdw.wsbc.biprsd.tbl_dp028_07,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_07,table,BIPRSD,3165267,Low
+A0333,cdw.wsbc.curated.tbl_dp028_08,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_08,table,Curated,1583530,Medium
+A0334,cdw.wsbc.raw_data.tbl_dp028_09,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp028_09,table,Raw Data,4797586,Low
+A0335,cdw.wsbc.raw_data.tbl_dp028_10,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp028_10,table,Raw Data,3446831,None
+A0336,cdw.wsbc.curated.tbl_dp028_11,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_11,table,Curated,3968612,Medium
+A0337,cdw.wsbc.curated.tbl_dp028_12,sql-mi-prod.database.windows.net,wsbc_employer,curated,tbl_dp028_12,table,Curated,3239663,Medium
+A0338,cdw.wsbc.biprsd.tbl_dp028_13,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_13,table,BIPRSD,1276951,Low
+A0339,cdw.wsbc.raw_data.tbl_dp028_14,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp028_14,table,Raw Data,1060030,Low
+A0340,cdw.wsbc.biprsd.tbl_dp028_15,sql-mi-prod.database.windows.net,wsbc_employer,biprsd,tbl_dp028_15,view,BIPRSD,2785973,High
+A0341,cdw.wsbc.raw_data.tbl_dp028_16,sql-mi-prod.database.windows.net,wsbc_employer,raw_data,tbl_dp028_16,view,Raw Data,3694556,None
+A0342,cdw.wsbc.curated.tbl_dp029_01,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp029_01,table,Curated,129744,Medium
+A0343,cdw.wsbc.raw_data.tbl_dp029_02,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_02,table,Raw Data,3440149,High
+A0344,cdw.wsbc.biprsd.tbl_dp029_03,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_03,table,BIPRSD,1295875,None
+A0345,cdw.wsbc.curated.tbl_dp029_04,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp029_04,table,Curated,2224172,None
+A0346,cdw.wsbc.biprsd.tbl_dp029_05,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_05,table,BIPRSD,3335331,Medium
+A0347,cdw.wsbc.raw_data.tbl_dp029_06,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_06,table,Raw Data,2757207,High
+A0348,cdw.wsbc.biprsd.tbl_dp029_07,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_07,table,BIPRSD,4477348,Low
+A0349,cdw.wsbc.curated.tbl_dp029_08,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp029_08,table,Curated,4094200,High
+A0350,cdw.wsbc.biprsd.tbl_dp029_09,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_09,table,BIPRSD,302143,Low
+A0351,cdw.wsbc.raw_data.tbl_dp029_10,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_10,table,Raw Data,1970395,Medium
+A0352,cdw.wsbc.biprsd.tbl_dp029_11,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_11,table,BIPRSD,2411709,None
+A0353,cdw.wsbc.biprsd.tbl_dp029_12,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp029_12,table,BIPRSD,759156,Low
+A0354,cdw.wsbc.raw_data.tbl_dp029_13,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_13,table,Raw Data,844115,Low
+A0355,cdw.wsbc.raw_data.tbl_dp029_14,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_14,table,Raw Data,2513103,None
+A0356,cdw.wsbc.raw_data.tbl_dp029_15,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_15,view,Raw Data,2722051,High
+A0357,cdw.wsbc.raw_data.tbl_dp029_16,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp029_16,view,Raw Data,2461947,None
+A0358,cdw.wsbc.curated.tbl_dp030_01,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_01,table,Curated,1222127,None
+A0359,cdw.wsbc.biprsd.tbl_dp030_02,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp030_02,table,BIPRSD,3457540,Low
+A0360,cdw.wsbc.biprsd.tbl_dp030_03,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp030_03,table,BIPRSD,1511426,None
+A0361,cdw.wsbc.raw_data.tbl_dp030_04,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp030_04,table,Raw Data,663434,Low
+A0362,cdw.wsbc.curated.tbl_dp030_05,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_05,table,Curated,2021226,Low
+A0363,cdw.wsbc.biprsd.tbl_dp030_06,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp030_06,table,BIPRSD,1201558,None
+A0364,cdw.wsbc.curated.tbl_dp030_07,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_07,table,Curated,2131516,Low
+A0365,cdw.wsbc.curated.tbl_dp030_08,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_08,table,Curated,79831,High
+A0366,cdw.wsbc.curated.tbl_dp030_09,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_09,table,Curated,2413829,Medium
+A0367,cdw.wsbc.biprsd.tbl_dp030_10,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp030_10,table,BIPRSD,1326195,None
+A0368,cdw.wsbc.curated.tbl_dp030_11,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_11,table,Curated,2899814,Low
+A0369,cdw.wsbc.curated.tbl_dp030_12,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_12,view,Curated,3560361,Medium
+A0370,cdw.wsbc.curated.tbl_dp030_13,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp030_13,view,Curated,3833216,High
+A0371,cdw.wsbc.raw_data.tbl_dp031_01,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp031_01,table,Raw Data,3228040,High
+A0372,cdw.wsbc.curated.tbl_dp031_02,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp031_02,table,Curated,895672,None
+A0373,cdw.wsbc.curated.tbl_dp031_03,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp031_03,table,Curated,4798635,None
+A0374,cdw.wsbc.biprsd.tbl_dp031_04,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp031_04,table,BIPRSD,2482957,Medium
+A0375,cdw.wsbc.curated.tbl_dp031_05,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp031_05,table,Curated,185042,High
+A0376,cdw.wsbc.biprsd.tbl_dp031_06,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp031_06,table,BIPRSD,3321259,None
+A0377,cdw.wsbc.raw_data.tbl_dp031_07,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp031_07,table,Raw Data,4748356,High
+A0378,cdw.wsbc.biprsd.tbl_dp031_08,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp031_08,table,BIPRSD,412412,Low
+A0379,cdw.wsbc.biprsd.tbl_dp031_09,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp031_09,table,BIPRSD,4167850,High
+A0380,cdw.wsbc.curated.tbl_dp031_10,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp031_10,table,Curated,1931372,Low
+A0381,cdw.wsbc.curated.tbl_dp031_11,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp031_11,view,Curated,1838143,Medium
+A0382,cdw.wsbc.raw_data.tbl_dp031_12,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp031_12,view,Raw Data,2103409,Medium
+A0383,cdw.wsbc.biprsd.tbl_dp032_01,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp032_01,table,BIPRSD,816070,Medium
+A0384,cdw.wsbc.biprsd.tbl_dp032_02,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp032_02,table,BIPRSD,331700,None
+A0385,cdw.wsbc.curated.tbl_dp032_03,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp032_03,table,Curated,280881,Low
+A0386,cdw.wsbc.curated.tbl_dp032_04,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp032_04,table,Curated,1103362,None
+A0387,cdw.wsbc.curated.tbl_dp032_05,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp032_05,table,Curated,2741718,Medium
+A0388,cdw.wsbc.curated.tbl_dp032_06,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp032_06,table,Curated,1474375,None
+A0389,cdw.wsbc.raw_data.tbl_dp032_07,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp032_07,table,Raw Data,4525880,None
+A0390,cdw.wsbc.biprsd.tbl_dp032_08,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp032_08,table,BIPRSD,4210359,None
+A0391,cdw.wsbc.raw_data.tbl_dp032_09,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp032_09,view,Raw Data,2156621,High
+A0392,cdw.wsbc.curated.tbl_dp032_10,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp032_10,view,Curated,2476825,Medium
+A0393,cdw.wsbc.raw_data.tbl_dp033_01,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp033_01,table,Raw Data,3929648,None
+A0394,cdw.wsbc.raw_data.tbl_dp033_02,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp033_02,table,Raw Data,1893593,High
+A0395,cdw.wsbc.biprsd.tbl_dp033_03,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp033_03,table,BIPRSD,3334729,High
+A0396,cdw.wsbc.biprsd.tbl_dp033_04,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp033_04,table,BIPRSD,3069343,None
+A0397,cdw.wsbc.curated.tbl_dp033_05,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp033_05,table,Curated,117758,None
+A0398,cdw.wsbc.biprsd.tbl_dp033_06,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp033_06,table,BIPRSD,1037737,Low
+A0399,cdw.wsbc.curated.tbl_dp033_07,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp033_07,table,Curated,2200169,Low
+A0400,cdw.wsbc.curated.tbl_dp033_08,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp033_08,table,Curated,3117146,None
+A0401,cdw.wsbc.biprsd.tbl_dp033_09,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp033_09,table,BIPRSD,1962440,Low
+A0402,cdw.wsbc.raw_data.tbl_dp033_10,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp033_10,table,Raw Data,4710426,None
+A0403,cdw.wsbc.biprsd.tbl_dp033_11,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp033_11,table,BIPRSD,1857962,Medium
+A0404,cdw.wsbc.raw_data.tbl_dp033_12,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp033_12,view,Raw Data,3895558,Medium
+A0405,cdw.wsbc.curated.tbl_dp033_13,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp033_13,view,Curated,3426033,None
+A0406,cdw.wsbc.raw_data.tbl_dp034_01,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp034_01,table,Raw Data,313157,None
+A0407,cdw.wsbc.curated.tbl_dp034_02,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp034_02,table,Curated,975089,None
+A0408,cdw.wsbc.raw_data.tbl_dp034_03,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp034_03,table,Raw Data,4510267,None
+A0409,cdw.wsbc.curated.tbl_dp034_04,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp034_04,table,Curated,3806439,None
+A0410,cdw.wsbc.biprsd.tbl_dp034_05,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp034_05,table,BIPRSD,4532463,Low
+A0411,cdw.wsbc.biprsd.tbl_dp034_06,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp034_06,table,BIPRSD,1297232,Low
+A0412,cdw.wsbc.biprsd.tbl_dp034_07,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp034_07,table,BIPRSD,831653,High
+A0413,cdw.wsbc.curated.tbl_dp034_08,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp034_08,table,Curated,3424524,None
+A0414,cdw.wsbc.raw_data.tbl_dp034_09,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp034_09,view,Raw Data,3109230,None
+A0415,cdw.wsbc.curated.tbl_dp034_10,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp034_10,view,Curated,3731379,None
+A0416,cdw.wsbc.raw_data.tbl_dp035_01,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp035_01,table,Raw Data,3082428,Low
+A0417,cdw.wsbc.biprsd.tbl_dp035_02,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp035_02,table,BIPRSD,3009774,None
+A0418,cdw.wsbc.curated.tbl_dp035_03,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp035_03,table,Curated,2315261,None
+A0419,cdw.wsbc.raw_data.tbl_dp035_04,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp035_04,table,Raw Data,3815445,None
+A0420,cdw.wsbc.biprsd.tbl_dp035_05,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp035_05,table,BIPRSD,1780272,Medium
+A0421,cdw.wsbc.biprsd.tbl_dp035_06,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp035_06,table,BIPRSD,180159,None
+A0422,cdw.wsbc.curated.tbl_dp035_07,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp035_07,table,Curated,2044203,None
+A0423,cdw.wsbc.biprsd.tbl_dp035_08,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp035_08,table,BIPRSD,1722389,None
+A0424,cdw.wsbc.biprsd.tbl_dp035_09,sql-mi-prod.database.windows.net,wsbc_worker,biprsd,tbl_dp035_09,table,BIPRSD,1738761,Low
+A0425,cdw.wsbc.raw_data.tbl_dp035_10,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp035_10,table,Raw Data,1955534,None
+A0426,cdw.wsbc.raw_data.tbl_dp035_11,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp035_11,table,Raw Data,24786,None
+A0427,cdw.wsbc.raw_data.tbl_dp035_12,sql-mi-prod.database.windows.net,wsbc_worker,raw_data,tbl_dp035_12,view,Raw Data,1091453,Low
+A0428,cdw.wsbc.curated.tbl_dp035_13,sql-mi-prod.database.windows.net,wsbc_worker,curated,tbl_dp035_13,view,Curated,1464787,None
+A0429,cdw.wsbc.raw_data.tbl_dp036_01,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp036_01,table,Raw Data,125657,None
+A0430,cdw.wsbc.raw_data.tbl_dp036_02,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp036_02,table,Raw Data,4940656,None
+A0431,cdw.wsbc.raw_data.tbl_dp036_03,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp036_03,table,Raw Data,1462683,None
+A0432,cdw.wsbc.raw_data.tbl_dp036_04,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp036_04,table,Raw Data,1064327,Medium
+A0433,cdw.wsbc.curated.tbl_dp036_05,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp036_05,table,Curated,4414125,None
+A0434,cdw.wsbc.biprsd.tbl_dp036_06,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp036_06,table,BIPRSD,534163,Low
+A0435,cdw.wsbc.curated.tbl_dp036_07,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp036_07,view,Curated,3038003,Low
+A0436,cdw.wsbc.biprsd.tbl_dp036_08,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp036_08,view,BIPRSD,915811,Low
+A0437,cdw.wsbc.raw_data.tbl_dp037_01,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp037_01,table,Raw Data,364772,Medium
+A0438,cdw.wsbc.biprsd.tbl_dp037_02,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_02,table,BIPRSD,4375249,None
+A0439,cdw.wsbc.curated.tbl_dp037_03,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp037_03,table,Curated,262310,None
+A0440,cdw.wsbc.curated.tbl_dp037_04,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp037_04,table,Curated,3370009,Low
+A0441,cdw.wsbc.biprsd.tbl_dp037_05,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_05,table,BIPRSD,906649,Low
+A0442,cdw.wsbc.biprsd.tbl_dp037_06,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_06,table,BIPRSD,3721870,None
+A0443,cdw.wsbc.raw_data.tbl_dp037_07,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp037_07,table,Raw Data,2703069,Low
+A0444,cdw.wsbc.raw_data.tbl_dp037_08,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp037_08,table,Raw Data,551982,None
+A0445,cdw.wsbc.curated.tbl_dp037_09,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp037_09,table,Curated,4911394,Low
+A0446,cdw.wsbc.biprsd.tbl_dp037_10,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_10,table,BIPRSD,2728853,Low
+A0447,cdw.wsbc.biprsd.tbl_dp037_11,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_11,table,BIPRSD,4451633,None
+A0448,cdw.wsbc.curated.tbl_dp037_12,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp037_12,table,Curated,4241869,Low
+A0449,cdw.wsbc.curated.tbl_dp037_13,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp037_13,table,Curated,832969,High
+A0450,cdw.wsbc.biprsd.tbl_dp037_14,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_14,table,BIPRSD,960774,High
+A0451,cdw.wsbc.biprsd.tbl_dp037_15,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp037_15,view,BIPRSD,4625935,Medium
+A0452,cdw.wsbc.raw_data.tbl_dp037_16,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp037_16,view,Raw Data,3608688,Low
+A0453,cdw.wsbc.curated.tbl_dp038_01,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp038_01,table,Curated,2844164,High
+A0454,cdw.wsbc.curated.tbl_dp038_02,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp038_02,table,Curated,3345791,Low
+A0455,cdw.wsbc.biprsd.tbl_dp038_03,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp038_03,table,BIPRSD,798637,None
+A0456,cdw.wsbc.curated.tbl_dp038_04,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp038_04,table,Curated,2622637,Medium
+A0457,cdw.wsbc.curated.tbl_dp038_05,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp038_05,table,Curated,3140864,None
+A0458,cdw.wsbc.biprsd.tbl_dp038_06,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp038_06,table,BIPRSD,3979447,None
+A0459,cdw.wsbc.raw_data.tbl_dp038_07,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp038_07,table,Raw Data,717088,None
+A0460,cdw.wsbc.curated.tbl_dp038_08,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp038_08,table,Curated,811041,Medium
+A0461,cdw.wsbc.biprsd.tbl_dp038_09,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp038_09,table,BIPRSD,3126988,High
+A0462,cdw.wsbc.raw_data.tbl_dp038_10,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp038_10,view,Raw Data,4668176,None
+A0463,cdw.wsbc.biprsd.tbl_dp038_11,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp038_11,view,BIPRSD,4711928,Low
+A0464,cdw.wsbc.biprsd.tbl_dp039_01,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_01,table,BIPRSD,1026350,Low
+A0465,cdw.wsbc.curated.tbl_dp039_02,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp039_02,table,Curated,3548851,High
+A0466,cdw.wsbc.biprsd.tbl_dp039_03,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_03,table,BIPRSD,432560,None
+A0467,cdw.wsbc.biprsd.tbl_dp039_04,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_04,table,BIPRSD,2622011,None
+A0468,cdw.wsbc.raw_data.tbl_dp039_05,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp039_05,table,Raw Data,4848931,Low
+A0469,cdw.wsbc.raw_data.tbl_dp039_06,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp039_06,table,Raw Data,1298970,Medium
+A0470,cdw.wsbc.curated.tbl_dp039_07,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp039_07,table,Curated,1882102,High
+A0471,cdw.wsbc.raw_data.tbl_dp039_08,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp039_08,table,Raw Data,2937969,High
+A0472,cdw.wsbc.biprsd.tbl_dp039_09,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_09,table,BIPRSD,3084325,None
+A0473,cdw.wsbc.curated.tbl_dp039_10,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp039_10,table,Curated,4816899,None
+A0474,cdw.wsbc.curated.tbl_dp039_11,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp039_11,table,Curated,4706721,High
+A0475,cdw.wsbc.biprsd.tbl_dp039_12,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_12,view,BIPRSD,4671271,None
+A0476,cdw.wsbc.biprsd.tbl_dp039_13,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp039_13,view,BIPRSD,2244514,None
+A0477,cdw.wsbc.curated.tbl_dp040_01,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_01,table,Curated,2592951,None
+A0478,cdw.wsbc.curated.tbl_dp040_02,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_02,table,Curated,52219,None
+A0479,cdw.wsbc.raw_data.tbl_dp040_03,sql-mi-prod.database.windows.net,wsbc_provider,raw_data,tbl_dp040_03,table,Raw Data,4751645,Medium
+A0480,cdw.wsbc.curated.tbl_dp040_04,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_04,table,Curated,584724,None
+A0481,cdw.wsbc.biprsd.tbl_dp040_05,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp040_05,table,BIPRSD,258170,None
+A0482,cdw.wsbc.biprsd.tbl_dp040_06,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp040_06,table,BIPRSD,4451011,None
+A0483,cdw.wsbc.curated.tbl_dp040_07,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_07,table,Curated,3522810,Low
+A0484,cdw.wsbc.curated.tbl_dp040_08,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_08,table,Curated,1321444,None
+A0485,cdw.wsbc.curated.tbl_dp040_09,sql-mi-prod.database.windows.net,wsbc_provider,curated,tbl_dp040_09,view,Curated,2722120,High
+A0486,cdw.wsbc.biprsd.tbl_dp040_10,sql-mi-prod.database.windows.net,wsbc_provider,biprsd,tbl_dp040_10,view,BIPRSD,713671,None
