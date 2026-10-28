@@ -3,3 +3,6 @@ venv/
 __pycache__/
 *.pyc
 .env
+
+Data_Value_Explorer_MVP_PRD_v0.3.docx
+developer_guide_v2.docx
