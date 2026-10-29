@@ -90,8 +90,8 @@ function Quadrant({ autoplay, focus }: { autoplay: boolean; focus: string[] }) {
   return (
     <div>
       <div className="anim-controls">
-        <button onClick={() => { setAnimPeriod(periods[0]); setPlaying(false); }}>|&lt;</button>
-        <button onClick={() => {
+        <button className="btn btn-primary btn-sm" onClick={() => { setAnimPeriod(periods[0]); setPlaying(false); }}>|&lt;</button>
+        <button className="btn btn-primary btn-sm" onClick={() => {
           if (!playing && periods.indexOf(period) >= periods.length - 1) setAnimPeriod(periods[0]);
           setPlaying(p => !p);
         }}>{playing ? "Pause" : "Play"}</button>

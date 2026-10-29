@@ -6,3 +6,7 @@ __pycache__/
 
 Data_Value_Explorer_MVP_PRD_v0.3.docx
 developer_guide_v2.docx
+
+# WorkSafeBC brand assets (logo, fonts, wsbc.css) are not redistributed; see README in that folder
+explorer/src/styles/wsbc/*
+!explorer/src/styles/wsbc/README.md

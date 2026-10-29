@@ -70,11 +70,11 @@ export default function ProductList() {
     <div>
       <h1>Product List — {filters.period}</h1>
       <div className="toolbar">
-        <input placeholder="Search..." value={search} onChange={e => setSearch(e.target.value)} />
-        <button onClick={() => exportCsv(visible, "products.csv")}>Export CSV</button>
+        <input className="form-control form-control-sm" placeholder="Search..." value={search} onChange={e => setSearch(e.target.value)} />
+        <button className="btn btn-primary btn-sm" onClick={() => exportCsv(visible, "products.csv")}>Export CSV</button>
         <span className="note">{visible.length} products</span>
       </div>
-      <table>
+      <table className="table table-striped table-hover table-sm">
         <thead>
           <tr>{COLUMNS.map(c => (
             <th key={c.header} onClick={() => toggleSort(c.key)} style={{ cursor: "pointer" }}>

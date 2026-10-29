@@ -44,7 +44,7 @@ export default function Compare() {
       <h1>Compare Products — {filters.period}</h1>
       <div className="toolbar">
         {Array.from({ length: slots }, (_, i) => (
-          <select key={i} value={selected[i] ?? ""} onChange={e => setAt(i, e.target.value)}>
+          <select key={i} className="form-select form-select-sm w-auto" value={selected[i] ?? ""} onChange={e => setAt(i, e.target.value)}>
             <option value="">{i < 2 ? "Select product..." : "Add product (optional)..."}</option>
             {products.map(p => (
               <option key={p.data_product_id} value={p.data_product_id}
@@ -58,7 +58,7 @@ export default function Compare() {
       {chosen.length < 2 ? <p className="note">Select at least 2 products to compare.</p> : (
         <div style={{ display: "flex", gap: 24, flexWrap: "wrap", alignItems: "flex-start" }}>
           <ReactECharts option={option} style={{ height: 380, flex: "1 1 380px" }} />
-          <table style={{ flex: "1 1 380px" }}>
+          <table className="table table-striped table-sm" style={{ flex: "1 1 380px" }}>
             <thead><tr>
               <th>Product</th><th>Value</th><th>Quality</th><th>Cost</th><th>Risk</th><th>Composite</th>
             </tr></thead>

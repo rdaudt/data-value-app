@@ -39,7 +39,7 @@ export default function DomainHeatmap() {
     yAxis: { type: "category", data: domains },
     visualMap: {
       min: 0, max: 100, calculable: true, orient: "horizontal", left: "center", bottom: 0,
-      inRange: { color: ["#C62828", "#E65100", "#2E7D32"] },
+      inRange: { color: ["#A4343A", "#ED8B00", "#888D30"] },
     },
     series: [{ type: "heatmap", data: heatData, label: { show: true } }],
   };

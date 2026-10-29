@@ -4,6 +4,8 @@ import { createRoot } from "react-dom/client"
 import { RouterProvider } from "react-router-dom"
 import { FilterProvider } from "./context/FilterContext"
 import { router } from "./router"
+import "font-awesome/css/font-awesome.min.css"
+import "./styles/wsbc/wsbc.css"
 import "./index.css"
 
 createRoot(document.getElementById("root")!).render(

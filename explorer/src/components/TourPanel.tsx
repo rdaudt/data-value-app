@@ -29,7 +29,7 @@ export default function TourPanel() {
         <span className="tour-tag">{step.section ?? tour.name}</span>
         <span className="tour-count">Step {tour.index + 1} of {tour.steps.length}</span>
         <div className="tour-bar"><div style={{ width: `${((tour.index + 1) / tour.steps.length) * 100}%` }} /></div>
-        <button className="tour-ghost" onClick={exit}>Exit tour (Esc)</button>
+        <button className="btn btn-outline-light btn-sm" onClick={exit}>Exit tour (Esc)</button>
       </div>
       <div className="tour-body">
         <div className="tour-text">
@@ -39,8 +39,8 @@ export default function TourPanel() {
         {step.ask && <div className="tour-ask"><strong>Ask the room</strong>{step.ask}</div>}
       </div>
       <div className="tour-nav">
-        <button onClick={prev} disabled={tour.index === 0}>← Back</button>
-        <button onClick={last ? exit : next}>{last ? "Finish" : "Next →"}</button>
+        <button className="btn btn-light btn-sm" onClick={prev} disabled={tour.index === 0}>← Back</button>
+        <button className="btn btn-light btn-sm" onClick={last ? exit : next}>{last ? "Finish" : "Next →"}</button>
       </div>
     </div>
   );

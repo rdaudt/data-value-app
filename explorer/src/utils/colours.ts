@@ -1,26 +1,34 @@
+// Status colours from the WorkSafeBC palette. Hex (not CSS vars) because
+// ECharts draws to canvas and cannot resolve var(--...).
+const GOOD = "#888D30";   // mossgreen
+const WARN = "#ED8B00";   // orange
+const BAD  = "#A4343A";   // huckleberryred
+const INFO = "#6399AE";   // mountainblue
+const NONE = "#776E64";   // warm grey
+
 export const LABEL_COLOUR: Record<string,string> = {
   // Value / Quality
-  "High":        "#2E7D32",   // green
-  "Medium":      "#E65100",   // amber
-  "Low":         "#C62828",   // red
+  "High":        GOOD,
+  "Medium":      WARN,
+  "Low":         BAD,
   // Cost
-  "Efficient":   "#2E7D32",
-  "Moderate":    "#E65100",
-  "Expensive":   "#C62828",
+  "Efficient":   GOOD,
+  "Moderate":    WARN,
+  "Expensive":   BAD,
   // Risk
-  "Safe":        "#2E7D32",
-  "Exposed":     "#C62828",
+  "Safe":        GOOD,
+  "Exposed":     BAD,
 };
 
 export function scoreColour(score: number): string {
-  if (score >= 67) return "#2E7D32";
-  if (score >= 34) return "#E65100";
-  return "#C62828";
+  if (score >= 67) return GOOD;
+  if (score >= 34) return WARN;
+  return BAD;
 }
 
 export function piiColour(level: string): string {
-  if (level === "High")   return "#C62828";
-  if (level === "Medium") return "#E65100";
-  if (level === "Low")    return "#1565C0";
-  return "#757575";
+  if (level === "High")   return BAD;
+  if (level === "Medium") return WARN;
+  if (level === "Low")    return INFO;
+  return NONE;
 }

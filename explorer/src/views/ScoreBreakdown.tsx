@@ -27,7 +27,7 @@ export default function ScoreBreakdown() {
       <p>Formula version: {row.formula_version}
          &nbsp;|&nbsp; Composite = 0.34×Value + 0.33×Quality + 0.23×Cost + 0.10×Risk
          &nbsp;= <strong>{row.composite_score}</strong></p>
-      <table className="breakdown-table">
+      <table className="table table-striped table-sm breakdown-table">
         <thead><tr>
           <th>Dimension</th><th>Weight</th><th>Score</th><th>Label</th>
           <th>Contribution</th><th>Risk Flag</th>

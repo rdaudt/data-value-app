@@ -16,7 +16,7 @@ export default function AssetDetail() {
   return (
     <div>
       <h1>Asset: {asset.name}</h1>
-      <table>
+      <table className="table table-sm">
         <tbody>
           <tr><th>FQN</th><td>{asset.fqn}</td></tr>
           <tr><th>Type</th><td>{asset.type}</td></tr>
@@ -29,7 +29,7 @@ export default function AssetDetail() {
       <h2>Used by Data Products</h2>
       <ul>{ownerProducts.map(p => (
         <li key={p.data_product_id} onClick={() => navigate(`/products/${p.data_product_id}`)}
-            style={{ cursor: "pointer", color: "#1565C0" }}>{p.name}</li>
+            style={{ cursor: "pointer", color: "var(--wsbc-mountainblue)" }}>{p.name}</li>
       ))}</ul>
       <p className="note">
         Per-period measure and tag history will be shown in the full build.

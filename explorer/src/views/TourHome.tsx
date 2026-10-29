@@ -16,7 +16,7 @@ export default function TourHome() {
           <div className="kpi-label">All stories in order</div>
           <div className="story-title">Full tour</div>
           <div className="kpi-sub">{STORIES.length} stories, {FULL_TOUR.length} steps</div>
-          <button onClick={() => start("all")}>Start full tour</button>
+          <button className="btn btn-primary" onClick={() => start("all")}>Start full tour</button>
         </div>
         {STORIES.map(s => (
           <div key={s.id} className="kpi-card story-card">
@@ -24,7 +24,7 @@ export default function TourHome() {
             <div className="story-title">{s.title}</div>
             <div className="kpi-sub">{s.blurb}</div>
             <div className="kpi-sub">{s.products} · {s.steps.length} steps</div>
-            <button onClick={() => start(s.id)}>Start</button>
+            <button className="btn btn-primary" onClick={() => start(s.id)}>Start</button>
           </div>
         ))}
       </div>

@@ -39,7 +39,7 @@ export default function Trends() {
   });
 
   const select = (value: string, set: (v: string) => void) => (
-    <select value={value} onChange={e => set(e.target.value)}>
+    <select className="form-select form-select-sm w-auto" value={value} onChange={e => set(e.target.value)}>
       {periods.map(p => <option key={p}>{p}</option>)}
     </select>
   );
@@ -56,7 +56,7 @@ export default function Trends() {
           <div key={m.name} className="kpi-card" style={{ minWidth: 220 }}>
             <div className="kpi-label">{m.name} — products that changed label</div>
             <div className="kpi-value">{m.changed}</div>
-            <table>
+            <table className="table table-sm">
               <tbody>{m.rows.map(([k, c]) => (
                 <tr key={k}><td>{k}</td><td>{c}</td></tr>
               ))}</tbody>

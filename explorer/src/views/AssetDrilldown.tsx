@@ -19,7 +19,7 @@ export default function AssetDrilldown() {
         PII level is a static attribute in this build. Per-period tag history
         and measure detail will be added in the full build.
       </p>
-      <table>
+      <table className="table table-striped table-hover table-sm">
         <thead><tr>
           <th>FQN</th><th>Type</th><th>Layer</th><th>Rows</th><th>PII Level</th>
         </tr></thead>

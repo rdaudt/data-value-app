@@ -36,7 +36,7 @@ export default function ProductDetail() {
 
   return (
     <div>
-      <h1>{product.name} {latest.risk_flag && <span className="risk-badge">{"⚠"} RISK</span>}</h1>
+      <h1>{product.name} {latest.risk_flag && <span className="badge text-bg-danger">{"⚠"} RISK</span>}</h1>
       <p>{product.domain} / {product.subdomain} | Tier: {product.tier} | Owner: {product.owner}</p>
       <div className="gauge-row">
         {DIMS.map(dim => (
@@ -59,8 +59,8 @@ export default function ProductDetail() {
       </div>
       <ReactECharts option={trendOption} style={{ height: 320, marginTop: 24 }} />
       <div className="detail-links">
-        <button onClick={() => navigate(`/products/${id}/breakdown`)}>Score Breakdown</button>{" "}
-        <button onClick={() => navigate(`/products/${id}/assets`)}>Asset Drill-down</button>
+        <button className="btn btn-primary" onClick={() => navigate(`/products/${id}/breakdown`)}>Score Breakdown</button>{" "}
+        <button className="btn btn-primary" onClick={() => navigate(`/products/${id}/assets`)}>Asset Drill-down</button>
       </div>
     </div>
   );
