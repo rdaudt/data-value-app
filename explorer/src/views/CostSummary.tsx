@@ -2,15 +2,16 @@
 import ReactECharts from "echarts-for-react";
 import { useData }    from "../hooks/useData";
 import { useFilters } from "../context/FilterContext";
+import { useFilteredScores } from "../hooks/useFilteredScores";
 import { scoreColour } from "../utils/colours";
 
 export default function CostSummary() {
-  const { scores, products } = useData();
+  const { products } = useData();
   const { filters }          = useFilters();
 
-  const curr = scores.filter(s => s.period === filters.period);
+  const curr = useFilteredScores();
   const domainOf = new Map(products.map(p => [p.data_product_id, p.domain]));
-  const domains = [...new Set(products.map(p => p.domain))];
+  const domains = [...new Set(curr.map(s => domainOf.get(s.data_product_id)!))];
 
   const byDomain = domains.map(d => {
     const rows = curr.filter(s => domainOf.get(s.data_product_id) === d);

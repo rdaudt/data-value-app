@@ -3,18 +3,27 @@ import { useState, useEffect, useMemo } from "react";
 import ReactECharts from "echarts-for-react";
 import { useData }    from "../hooks/useData";
 import { useFilters } from "../context/FilterContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { useFilteredScores } from "../hooks/useFilteredScores";
 import { LABEL_COLOUR } from "../utils/colours";
 
 // [cost, value, quality, name, id, risk_label, risk_flag]
 type Point = [number, number, number, string, string, string, boolean];
 
+// The tour deep-links with ?play=1 (start animating) and ?focus=DP001,DP002 (spotlight).
+// Keying on the params remounts the view so a new tour step starts fresh.
 export default function DecisionQuadrant() {
-  const { scores, products, periods } = useData();
+  const [sp] = useSearchParams();
+  return <Quadrant key={sp.toString()} autoplay={sp.get("play") === "1"}
+                   focus={sp.get("focus")?.split(",") ?? []} />;
+}
+
+function Quadrant({ autoplay, focus }: { autoplay: boolean; focus: string[] }) {
+  const { products, periods }         = useData();
   const { filters }                   = useFilters();
   const navigate                      = useNavigate();
-  const [animPeriod, setAnimPeriod]   = useState<string | null>(null);
-  const [playing, setPlaying]         = useState(false);
+  const [animPeriod, setAnimPeriod]   = useState<string | null>(autoplay ? periods[0] : null);
+  const [playing, setPlaying]         = useState(autoplay);
 
   // Follow the global period filter until the user starts animating
   const period = animPeriod ?? filters.period;
@@ -31,14 +40,14 @@ export default function DecisionQuadrant() {
     return () => clearTimeout(t);
   }, [playing, period, periods]);
 
-  const data = useMemo<Point[]>(() => scores
-    .filter(s => s.period === period)
+  const periodScores = useFilteredScores(period);
+  const data = useMemo<Point[]>(() => periodScores
     .map(s => {
       const p = products.find(p => p.data_product_id === s.data_product_id);
       return [s.cost_score, s.value_score, s.quality_score,
               p?.name || s.data_product_id, s.data_product_id,
               s.risk_label, s.risk_flag];
-    }), [scores, products, period]);
+    }), [periodScores, products]);
 
   const option = {
     title: { text: `Decision Quadrant — ${period}` },
@@ -55,10 +64,21 @@ export default function DecisionQuadrant() {
       symbolSize: (v: Point) => Math.max(8, v[2] / 5),
       itemStyle: { color: (p: { value: Point }) => LABEL_COLOUR[p.value[5]] || "#999" },
       // Risk-flagged products get a heavy black outline
-      data: data.map(d => ({
-        value: d,
-        itemStyle: d[6] ? { borderColor: "#000", borderWidth: 3 } : undefined,
-      })),
+      data: data.map(d => {
+        const dimmed = focus.length > 0 && !focus.includes(d[4]);
+        const spot   = focus.includes(d[4]);
+        return {
+          value: d,
+          itemStyle: {
+            opacity: dimmed ? 0.15 : 1,
+            ...(d[6] ? { borderColor: "#000", borderWidth: 3 } : {}),
+          },
+          // Spotlighted products get a name label
+          label: spot ? { show: true, formatter: d[3].replace(/ Data Product /, " #"), position: "right" as const,
+                          fontWeight: "bold" as const } : undefined,
+          symbolSize: spot ? Math.max(18, d[2] / 3) : undefined,
+        };
+      }),
       markLine: {
         silent: true, symbol: "none",
         lineStyle: { color: "#888", type: "solid" },

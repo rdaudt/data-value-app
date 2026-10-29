@@ -2,16 +2,19 @@
 import ReactECharts from "echarts-for-react";
 import { useData }    from "../hooks/useData";
 import { useFilters } from "../context/FilterContext";
+import { useFilteredScores } from "../hooks/useFilteredScores";
 
 const DIMS = ["value_score", "quality_score", "cost_score", "risk_score"] as const;
 const DIM_LABELS = ["Value", "Quality", "Cost", "Risk"];
 
 export default function DomainHeatmap() {
-  const { scores, products } = useData();
+  const { products } = useData();
   const { filters }          = useFilters();
 
-  const curr = scores.filter(s => s.period === filters.period);
-  const domains = [...new Set(products.map(p => p.domain))];
+  const curr = useFilteredScores();
+  // Only domains that still have products after filtering
+  const inScope = new Set(curr.map(s => s.data_product_id));
+  const domains = [...new Set(products.filter(p => inScope.has(p.data_product_id)).map(p => p.domain))];
 
   // [dimIdx, domainIdx, avgScore] triples for the ECharts heatmap
   const heatData: [number, number, number][] = [];

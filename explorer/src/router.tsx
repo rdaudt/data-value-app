@@ -9,13 +9,16 @@ import ProductList        from "./views/ProductList";
 import Trends             from "./views/Trends";
 import Compare            from "./views/Compare";
 import CostSummary        from "./views/CostSummary";
+import TourHome          from "./views/TourHome";
+import { TourProvider }   from "./tour/TourContext";
 import ProductDetail      from "./views/ProductDetail";
 import ScoreBreakdown     from "./views/ScoreBreakdown";
 import AssetDrilldown     from "./views/AssetDrilldown";
 import AssetDetail        from "./views/AssetDetail";
 
 export const router = createBrowserRouter([{
-  path: "/", element: <Shell />, children: [
+  path: "/", element: <TourProvider><Shell /></TourProvider>, children: [
+    { path: "tour",                 element: <TourHome /> },
     { index: true,                  element: <PortfolioOverview /> },
     { path: "quadrant",             element: <DecisionQuadrant /> },
     { path: "heatmap",              element: <DomainHeatmap /> },

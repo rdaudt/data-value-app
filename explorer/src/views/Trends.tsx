@@ -1,6 +1,8 @@
 ﻿// src/views/Trends.tsx
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useData } from "../hooks/useData";
+import { useFilteredProductIds } from "../hooks/useFilteredScores";
 
 const DIMS = [
   { key: "value_label",   name: "Value" },
@@ -11,13 +13,15 @@ const DIMS = [
 
 export default function Trends() {
   const { scores, periods } = useData();
-  const [from, setFrom] = useState<string | null>(null);
-  const [to, setTo]     = useState<string | null>(null);
+  const [sp] = useSearchParams();   // tour deep-link: ?from=2026-06&to=2026-09
+  const [from, setFrom] = useState<string | null>(sp.get("from"));
+  const [to, setTo]     = useState<string | null>(sp.get("to"));
+  const ids = useFilteredProductIds();
   const fromPeriod = from ?? periods[0] ?? "";
   const toPeriod   = to   ?? periods[periods.length - 1] ?? "";
 
-  const fromRows = new Map(scores.filter(s => s.period === fromPeriod).map(s => [s.data_product_id, s]));
-  const toRows   = scores.filter(s => s.period === toPeriod);
+  const fromRows = new Map(scores.filter(s => s.period === fromPeriod && ids.has(s.data_product_id)).map(s => [s.data_product_id, s]));
+  const toRows   = scores.filter(s => s.period === toPeriod && ids.has(s.data_product_id));
 
   // Transition counts per dimension: "High → Medium" => n
   const matrices = DIMS.map(({ key, name }) => {

@@ -1,6 +1,7 @@
 // src/views/ProductList.tsx
 import { useState, useMemo } from "react";
 import { useData }    from "../hooks/useData";
+import { useFilteredScores } from "../hooks/useFilteredScores";
 import { useFilters } from "../context/FilterContext";
 import { useNavigate } from "react-router-dom";
 import { exportCsv }  from "../utils/exportCsv";
@@ -30,8 +31,9 @@ const COLUMNS: { header: string; key: keyof Row; cell?: (r: Row) => React.ReactN
 ];
 
 export default function ProductList() {
-  const { scores, products } = useData();
+  const { products } = useData();
   const { filters }          = useFilters();
+  const filtered             = useFilteredScores();
   const navigate             = useNavigate();
   const [search, setSearch]  = useState("");
   const [sort, setSort]      = useState<{ key: keyof Row; dir: 1 | -1 } | null>(null);
@@ -39,13 +41,10 @@ export default function ProductList() {
   // Join scores with product metadata for the selected period
   const rows = useMemo<Row[]>(() => {
     const byId = new Map(products.map(p => [p.data_product_id, p]));
-    return scores
-      .filter(s => s.period === filters.period &&
-        (!filters.domain || byId.get(s.data_product_id)?.domain === filters.domain) &&
-        (filters.riskFlag === null || s.risk_flag === filters.riskFlag))
+    return filtered
       .map(s => ({ ...byId.get(s.data_product_id)!, ...s }))
       .filter(r => r.data_product_id);
-  }, [scores, products, filters]);
+  }, [filtered, products]);
 
   const visible = useMemo(() => {
     const q = search.trim().toLowerCase();

@@ -7,13 +7,14 @@ export interface Filters {
   subdomain:string;
   tier:     string;
   owner:    string;
+  steward:  string;
   quadrant: string;
   riskFlag: boolean | null;  // null = all
 }
 
 const DEFAULT: Filters = {
   period:"2026-09", domain:"", subdomain:"", tier:"",
-  owner:"", quadrant:"", riskFlag:null
+  owner:"", steward:"", quadrant:"", riskFlag:null
 };
 
 type Action = { type:"SET"; payload: Partial<Filters> } | { type:"RESET" };

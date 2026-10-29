@@ -2,8 +2,10 @@
 import { Outlet, NavLink } from "react-router-dom";
 import { useFilters } from "../context/FilterContext";
 import { useData }    from "../hooks/useData";
+import TourPanel from "./TourPanel";
 
 const NAV = [
+  { to:"/tour",      label:"Guided Tour" },
   { to:"/",          label:"Portfolio Overview" },
   { to:"/quadrant",  label:"Decision Quadrant" },
   { to:"/heatmap",   label:"Domain Heatmap" },
@@ -13,9 +15,23 @@ const NAV = [
   { to:"/cost",      label:"Cost Summary" },
 ];
 
+const QUADRANTS = ["Invest", "Optimize", "Maintain", "Retire review"];
+
 export default function Shell() {
   const { filters, dispatch } = useFilters();
-  const { periods, loading, error } = useData();
+  const { periods, products, loading, error } = useData();
+
+  const uniq = (k: "domain"|"tier"|"owner"|"steward") =>
+    [...new Set(products.map(p => p[k]).filter(Boolean))].sort();
+  const pick = (label: string, key: "domain"|"tier"|"owner"|"steward"|"quadrant", options: string[]) => (
+    <label>{label}:
+      <select value={filters[key]}
+        onChange={e=>dispatch({type:"SET",payload:{[key]:e.target.value}})}>
+        <option value="">all</option>
+        {options.map(o=><option key={o}>{o}</option>)}
+      </select>
+    </label>
+  );
 
   if (loading) return <div className="loading">Loading data...</div>;
   if (error)   return <div className="error">Error: {error}</div>;
@@ -47,11 +63,11 @@ export default function Shell() {
                 {periods.map(p=><option key={p}>{p}</option>)}
               </select>
             </label>
-            <label>Domain:
-              <input value={filters.domain}
-                onChange={e=>dispatch({type:"SET",payload:{domain:e.target.value}})}
-                placeholder="all" />
-            </label>
+            {pick("Domain",  "domain",  uniq("domain"))}
+            {pick("Tier",    "tier",    uniq("tier"))}
+            {pick("Owner",   "owner",   uniq("owner"))}
+            {pick("Steward", "steward", uniq("steward"))}
+            {pick("Quadrant","quadrant", QUADRANTS)}
             <label>Risk flag:
               <select value={filters.riskFlag===null?"all":String(filters.riskFlag)}
                 onChange={e=>dispatch({type:"SET",payload:{riskFlag:
@@ -65,6 +81,7 @@ export default function Shell() {
           </div>
 
           <div className="content"><Outlet /></div>
+          <TourPanel />
         </div>
       </div>
     </div>

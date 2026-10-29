@@ -1,6 +1,7 @@
 // src/views/PortfolioOverview.tsx
 import { useData }    from "../hooks/useData";
 import { useFilters } from "../context/FilterContext";
+import { useFilteredScores } from "../hooks/useFilteredScores";
 import type { ParsedScore } from "../types";
 
 function kpi(label: string, value: string | number, sub?: string) {
@@ -22,9 +23,11 @@ export default function PortfolioOverview() {
   const { scores, periods } = useData();
   const { filters }         = useFilters();
 
-  const curr = scores.filter(s => s.period === filters.period);
+  const curr = useFilteredScores();
   const prevPeriod = periods[periods.indexOf(filters.period) - 1];
-  const prev = prevPeriod ? scores.filter(s => s.period === prevPeriod) : [];
+  // Compare the same products against the previous month
+  const currIds = new Set(curr.map(s => s.data_product_id));
+  const prev = prevPeriod ? scores.filter(s => s.period === prevPeriod && currIds.has(s.data_product_id)) : [];
 
   const flagged  = curr.filter(s => s.risk_flag).length;
   const avgComp  = avg(curr, "composite_score");

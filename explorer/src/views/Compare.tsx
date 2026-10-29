@@ -1,5 +1,6 @@
 ﻿// src/views/Compare.tsx
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import ReactECharts from "echarts-for-react";
 import { useData }    from "../hooks/useData";
 import { useFilters } from "../context/FilterContext";
@@ -10,7 +11,8 @@ const MAX = 4;
 export default function Compare() {
   const { scores, products } = useData();
   const { filters }          = useFilters();
-  const [selected, setSelected] = useState<string[]>([]);
+  const [sp] = useSearchParams();   // tour deep-link: ?ids=DP001,DP002
+  const [selected, setSelected] = useState<string[]>(sp.get("ids")?.split(",").slice(0, MAX) ?? []);
 
   const curr = scores.filter(s => s.period === filters.period);
   const chosen = selected

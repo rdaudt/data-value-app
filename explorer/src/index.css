@@ -53,3 +53,23 @@ button:hover { background:#1F3864; }
   tr:hover td { background:#1b2a4a; }
   h1, .kpi-value { color:#9db8e8; }
 }
+
+/* Guided tour */
+.story-card { width:260px; display:flex; flex-direction:column; gap:8px; }
+.story-card button { margin-top:auto; align-self:flex-start; }
+.story-title { font-size:18px; font-weight:bold; color:#1F3864; }
+.tour-panel { background:#1F3864; color:#fff; padding:12px 20px; display:grid; gap:8px;
+              grid-template-columns:1fr auto; border-top:3px solid #2E74B5; }
+.tour-head { grid-column:1 / -1; display:flex; gap:16px; align-items:center; font-size:12px; }
+.tour-tag { font-weight:bold; text-transform:uppercase; letter-spacing:1px; }
+.tour-bar { flex:1; height:4px; background:#ffffff33; border-radius:2px; }
+.tour-bar div { height:100%; background:#fff; border-radius:2px; }
+.tour-body { display:flex; gap:24px; font-size:15px; line-height:1.4; }
+.tour-text { flex:2; }
+.tour-title { font-size:18px; font-weight:bold; margin-bottom:4px; }
+.tour-ask { flex:1; background:#ffffff1a; border-radius:6px; padding:8px 12px; }
+.tour-ask strong { display:block; font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-bottom:2px; }
+.tour-nav { display:flex; gap:8px; align-items:flex-end; }
+.tour-panel button { background:#fff; color:#1F3864; font-weight:bold; }
+.tour-panel button:disabled { opacity:0.4; cursor:default; }
+.tour-panel button.tour-ghost { background:transparent; color:#fff; border:1px solid #ffffff88; }
