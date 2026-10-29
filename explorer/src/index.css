@@ -79,3 +79,52 @@ th[role="button"], th.sortable { cursor: pointer; }
 .tour-ask { flex: 1; background: #ffffff1a; border-radius: 4px; padding: 8px 12px; }
 .tour-ask strong { display: block; font-size: .7rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2px; }
 .tour-nav { display: flex; gap: 8px; align-items: flex-end; }
+
+/* Scoring model walkthrough */
+.sm-banner { background: var(--wsbc-palemountainblue); border-left: 4px solid var(--wsbc-mountainblue);
+             padding: 8px 14px; font-size: .85rem; margin-bottom: 16px; }
+.sm-layout { display: flex; gap: 24px; align-items: flex-start; }
+.sm-steps { list-style: none; margin: 0; padding: 0; width: 250px; flex-shrink: 0;
+            border: 1px solid var(--wsbc-silvergrey); border-radius: 4px; }
+.sm-step { display: flex; gap: 10px; align-items: baseline; width: 100%; text-align: left; background: #fff;
+           border: 0; border-left: 4px solid transparent; border-bottom: 1px solid var(--wsbc-silvergrey);
+           padding: 10px 12px; font-size: .9rem; color: var(--wsbc-bodycopy); }
+.sm-step:hover { background: var(--wsbc-ashgrey); }
+.sm-step.active { background: var(--wsbc-ashgrey); border-left-color: var(--wsbc-orange); font-weight: 700; }
+.sm-step-n { color: var(--wsbc-warmgrey); font-weight: 700; min-width: 14px; }
+.sm-page { flex: 1; min-width: 0; max-width: 1000px; }
+.sm-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 24px;
+          padding-top: 12px; border-top: 1px solid var(--wsbc-silvergrey); }
+.sm-foot { margin-top: 12px; font-size: .85rem; }
+.sm-small { font-size: .8rem; color: var(--wsbc-warmgrey); }
+.sm-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; margin-bottom: 12px; }
+.sm-table { font-size: .85rem; }
+.sm-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+.sm-badge { background: var(--wsbc-silvergrey); border-radius: 10px; padding: 1px 8px; font-size: .75rem; white-space: nowrap; }
+.sm-callout { background: var(--wsbc-palesunriseyellow); border-left: 4px solid var(--wsbc-orange);
+              padding: 10px 14px; margin: 16px 0; font-size: .9rem; }
+.sm-formula { background: var(--wsbc-ashgrey); border-radius: 4px; padding: 10px 14px; margin: 12px 0; font-family: monospace; }
+.sm-chain { display: grid; gap: 8px; margin: 12px 0; }
+.sm-chain-step { display: flex; gap: 12px; align-items: center; border: 1px solid var(--wsbc-silvergrey);
+                 border-radius: 4px; padding: 8px 12px; }
+.sm-chain-n { background: var(--wsbc-orange); color: #fff; font-weight: 700; border-radius: 50%;
+              width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.sm-dim-card { width: 230px; display: flex; flex-direction: column; gap: 6px; }
+.sm-bars { margin: 12px 0; }
+.sm-bar-row { display: flex; align-items: center; gap: 10px; margin: 4px 0; }
+.sm-bar-label { width: 70px; font-size: .85rem; }
+.sm-bar { flex: 1; max-width: 400px; background: var(--wsbc-silvergrey); height: 14px; border-radius: 2px; }
+.sm-bar div { background: var(--wsbc-orange); height: 100%; border-radius: 2px; }
+.sm-bar-val { width: 40px; font-weight: 700; font-size: .85rem; }
+.sm-quad { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.sm-quad-cell { border: 1px solid var(--wsbc-silvergrey); border-top: 4px solid var(--wsbc-orange);
+                border-radius: 4px; padding: 10px 12px; }
+.sm-qa details { border: 1px solid var(--wsbc-silvergrey); border-radius: 4px; padding: 8px 12px; margin-bottom: 6px; }
+.sm-qa summary { font-weight: 700; cursor: pointer; }
+.sm-next li { margin-bottom: 8px; font-size: 1rem; }
+
+/* Menu item for material that is about the app, not part of it */
+.nav-extra { margin-top: 12px; background: var(--wsbc-palemountainblue); color: var(--wsbc-irongrey);
+             border-left-color: var(--wsbc-mountainblue); border-top: 1px solid var(--wsbc-steelgrey); }
+.nav-extra:hover { background: var(--wsbc-mountainblue); color: #fff; }
+.nav-extra.active { background: var(--wsbc-mountainblue); color: #fff; border-left-color: var(--wsbc-irongrey); }

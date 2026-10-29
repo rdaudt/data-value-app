@@ -15,10 +15,12 @@ import ProductDetail      from "./views/ProductDetail";
 import ScoreBreakdown     from "./views/ScoreBreakdown";
 import AssetDrilldown     from "./views/AssetDrilldown";
 import AssetDetail        from "./views/AssetDetail";
+import ScoringModel       from "./views/ScoringModel";
 
 export const router = createBrowserRouter([{
   path: "/", element: <TourProvider><Shell /></TourProvider>, children: [
     { path: "tour",                 element: <TourHome /> },
+    { path: "scoring-model",        element: <ScoringModel /> },
     { index: true,                  element: <PortfolioOverview /> },
     { path: "quadrant",             element: <DecisionQuadrant /> },
     { path: "heatmap",              element: <DomainHeatmap /> },

@@ -16,6 +16,9 @@ const NAV = [
   { to:"/cost",      label:"Cost Summary" },
 ];
 
+// Presentation material about the model, not part of the explorer itself
+const EXTRA = { to:"/scoring-model", label:"Scoring Model" };
+
 const QUADRANTS = ["Invest", "Optimize", "Maintain", "Retire review"];
 
 export default function Shell() {
@@ -67,6 +70,10 @@ export default function Shell() {
               {n.label}
             </NavLink>
           ))}
+          <NavLink to={EXTRA.to} className={({isActive})=>
+            isActive ? "nav-item nav-extra active" : "nav-item nav-extra"}>
+            {EXTRA.label}
+          </NavLink>
         </nav>
 
         <div className="main">
